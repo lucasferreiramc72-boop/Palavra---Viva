@@ -1,5 +1,5 @@
-const CACHE='palavra-viva-static-v3';
-const STATIC=['./','./index.html','./style.css','./app.js','./manifest.json','./icon.svg','./icon-192.png','./icon-512.png'];
+const CACHE='palavra-viva-static-v4';
+const STATIC=['./','./index.html','./style.css','./app.js','./manifest.json','./icon.svg','./palavra-viva-app-icon-192-v2.png','./palavra-viva-app-icon-512-v2.png'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(STATIC)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',event=>{

@@ -1,0 +1,5 @@
+ATUALIZAÇÃO DO ÍCONE DO PALAVRA VIVA
+
+O ícone atual do app drawer está em cache. Estes arquivos dão novos nomes aos PNGs para o Android buscar a arte nova. Envie/substitua na raiz do repositório: manifest.json, sw.js e icon.svg; adicione os dois arquivos palavra-viva-app-icon-*-v2.png.
+
+Depois espere o GitHub Pages publicar. Se o Palavra Viva foi instalado como PWA pelo Chrome, remova o atalho/app antigo e instale novamente pelo Chrome para atualizar o ícone. Se foi instalado via APK/TWA, o ícone está embutido no APK: gere um novo APK assinado com a mesma chave e instale a atualização. Não compartilhe a chave de assinatura.
