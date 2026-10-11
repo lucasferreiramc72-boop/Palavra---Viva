@@ -1,5 +1,5 @@
 {
-  "versao": 1,
+  "versao": 2,
   "atualizado_em": "2026-10-11",
   "mensagens": [
     {
@@ -9,6 +9,54 @@
       "referencia": "Mateus 6:34",
       "reflexao": "A preocupação com tudo o que ainda não aconteceu pode tirar a paz de hoje. Jesus convida a encarar cada dia com confiança e a cuidar do que está ao nosso alcance agora. Você não precisa resolver a vida inteira neste momento: escolha o próximo passo possível.",
       "oracao": "Deus, acalma meu coração diante do que não posso controlar. Dá-me sabedoria para cuidar do dia de hoje e coragem para dar o próximo passo. Amém."
+    },
+    {
+      "id": "2026-10-12-cuidado",
+      "data": "2026-10-12",
+      "titulo": "Você não está só",
+      "referencia": "Salmo 23:1",
+      "reflexao": "A imagem de Deus como pastor fala de cuidado, direção e presença. Mesmo quando o caminho parece incerto, você pode buscar orientação para o próximo passo e lembrar que não precisa carregar tudo sozinho.",
+      "oracao": "Deus, guia meus passos hoje. Ajuda-me a reconhecer o cuidado que já recebo e a confiar em ti nas decisões que tenho pela frente. Amém."
+    },
+    {
+      "id": "2026-10-13-confianca",
+      "data": "2026-10-13",
+      "titulo": "Confie e caminhe",
+      "referencia": "Provérbios 3:5-6",
+      "reflexao": "Confiar não significa ter todas as respostas. É fazer o melhor com responsabilidade, pedir sabedoria e manter o coração aberto para ajustar a rota. Um passo sincero pode ser suficiente para começar.",
+      "oracao": "Senhor, dá-me clareza para decidir e humildade para pedir ajuda. Orienta meus caminhos e ensina-me a seguir com confiança. Amém."
+    },
+    {
+      "id": "2026-10-14-paz",
+      "data": "2026-10-14",
+      "titulo": "Leve sua preocupação a Deus",
+      "referencia": "Filipenses 4:6-7",
+      "reflexao": "Quando a ansiedade apertar, pare por um instante e transforme a preocupação em uma conversa honesta com Deus. Isso não apaga os desafios, mas pode ajudar você a enfrentá-los com mais calma e atenção ao que importa.",
+      "oracao": "Deus, receba minhas preocupações e dá-me serenidade para agir no que está ao meu alcance. Guarda meu coração e minha mente. Amém."
+    },
+    {
+      "id": "2026-10-15-coragem",
+      "data": "2026-10-15",
+      "titulo": "Coragem para hoje",
+      "referencia": "Isaías 41:10",
+      "reflexao": "Há dias em que a força parece pequena. A promessa de presença pode ser um apoio para atravessar esse momento: respire, peça ajuda se precisar e escolha uma atitude possível, sem exigir de si mais do que consegue dar hoje.",
+      "oracao": "Deus, fica comigo neste dia. Fortalece-me no que for difícil e ajuda-me a buscar apoio quando eu precisar. Amém."
+    },
+    {
+      "id": "2026-10-16-amor-pratico",
+      "data": "2026-10-16",
+      "titulo": "Amor que vira atitude",
+      "referencia": "Marcos 12:30-31",
+      "reflexao": "Amar a Deus e ao próximo também aparece nas escolhas pequenas: ouvir com atenção, tratar alguém com respeito e cuidar de si sem desprezar os outros. Escolha uma atitude concreta de bondade para hoje.",
+      "oracao": "Senhor, ensina-me a amar com gestos sinceros. Mostra quem precisa de atenção e ajuda-me também a cuidar de mim com respeito. Amém."
+    },
+    {
+      "id": "2026-10-17-esperanca",
+      "data": "2026-10-17",
+      "titulo": "Continue com esperança",
+      "referencia": "Romanos 12:12",
+      "reflexao": "Esperança não é fingir que tudo está fácil. É continuar procurando sentido, apoio e caminhos possíveis mesmo em meio às dificuldades. Hoje, faça uma pausa, reconheça o que já superou e siga um passo por vez.",
+      "oracao": "Deus, renova minha esperança e dá-me paciência no que ainda não se resolveu. Ajuda-me a perceber pequenas razões para continuar. Amém."
     }
   ]
 }

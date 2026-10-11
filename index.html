@@ -4,43 +4,80 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#164e45">
-  <meta name="description" content="Uma mensagem bíblica e uma oração para cada dia.">
+  <meta name="description" content="Bíblia completa de 66 livros, mensagem diária e oração.">
   <link rel="manifest" href="manifest.json">
   <link rel="icon" href="icon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
-  <title>Palavra Viva</title>
+  <title>Palavra Viva — Bíblia e oração</title>
 </head>
 <body>
   <main class="app-shell">
     <header class="topbar">
-      <div class="brand-mark" aria-hidden="true">✦</div>
-      <div><p class="eyebrow">UM MOMENTO DE PAZ</p><h1>Palavra Viva</h1></div>
-      <button id="favoriteBtn" class="icon-btn" aria-label="Favoritar mensagem" title="Favoritar">♡</button>
+      <img class="brand-mark" src="icon.svg" alt="" aria-hidden="true">
+      <div><p class="eyebrow">BÍBLIA E VIDA DIÁRIA</p><h1>Palavra Viva</h1></div>
+      <button id="favoriteBtn" class="icon-btn" aria-label="Favoritar mensagem do dia" title="Favoritar mensagem">♡</button>
     </header>
 
     <section class="date-row" aria-live="polite">
       <span id="todayDate"></span><span id="connectionState" class="status">Carregando…</span>
     </section>
 
-    <article class="message-card">
-      <div class="sunrise" aria-hidden="true">☀</div>
-      <p class="eyebrow accent">MENSAGEM DO DIA</p>
-      <h2 id="messageTitle">Um passo de cada vez</h2>
-      <p id="reference" class="reference"></p>
-      <p id="messageText" class="body-copy">Buscando sua mensagem…</p>
-      <div class="divider"></div>
-      <p class="eyebrow accent">ORAÇÃO</p>
-      <p id="prayerText" class="prayer"></p>
-      <button id="shareBtn" class="primary-btn">Compartilhar mensagem</button>
-    </article>
+    <nav class="tabs" aria-label="Seções do aplicativo">
+      <button class="tab-btn active" id="tabToday" data-tab="todayView" aria-selected="true">Hoje</button>
+      <button class="tab-btn" id="tabBible" data-tab="bibleView" aria-selected="false">Bíblia · 66 livros</button>
+    </nav>
 
-    <section class="bottom-card">
-      <div><p class="eyebrow">SEUS FAVORITOS</p><p id="favoriteSummary">Nenhuma mensagem salva ainda.</p></div>
-      <button id="showFavoritesBtn" class="text-btn">Ver favoritos</button>
+    <section id="todayView" class="view active-view">
+      <article class="message-card">
+        <div class="sunrise" aria-hidden="true">☀</div>
+        <p class="eyebrow accent">MENSAGEM DO DIA</p>
+        <h2 id="messageTitle">Um passo de cada vez</h2>
+        <p id="reference" class="reference"></p>
+        <p id="messageText" class="body-copy">Buscando sua mensagem…</p>
+        <div class="divider"></div>
+        <p class="eyebrow accent">ORAÇÃO</p>
+        <p id="prayerText" class="prayer"></p>
+        <button id="shareBtn" class="primary-btn">Compartilhar mensagem</button>
+      </article>
+      <section class="bottom-card">
+        <div><p class="eyebrow">SEUS FAVORITOS</p><p id="favoriteSummary">Nenhuma mensagem salva ainda.</p></div>
+        <button id="showFavoritesBtn" class="text-btn">Ver favoritos</button>
+      </section>
     </section>
-    <p class="footnote">Reflexões e orações originais, inspiradas nas referências bíblicas indicadas.</p>
+
+    <section id="bibleView" class="view" hidden>
+      <article class="bible-card">
+        <p class="eyebrow accent">BÍBLIA SAGRADA · 66 LIVROS</p>
+        <h2 class="bible-heading">Leia no seu ritmo</h2>
+        <p class="bible-caption">Texto clássico de João Ferreira de Almeida, indicado como domínio público pela fonte. As reflexões do Palavra Viva são originais e usam linguagem atual.</p>
+        <div class="reader-controls">
+          <label class="field-label" for="bookSelect">Livro</label>
+          <select id="bookSelect" aria-label="Escolher livro"><option>Carregando Bíblia…</option></select>
+          <label class="field-label" for="chapterSelect">Capítulo</label>
+          <div class="chapter-row">
+            <button id="prevChapter" class="round-btn" aria-label="Capítulo anterior">‹</button>
+            <select id="chapterSelect" aria-label="Escolher capítulo" disabled></select>
+            <button id="nextChapter" class="round-btn" aria-label="Próximo capítulo">›</button>
+          </div>
+        </div>
+        <form id="searchForm" class="search-form">
+          <label class="field-label" for="bibleSearch">Buscar na Bíblia</label>
+          <div class="search-row"><input id="bibleSearch" type="search" placeholder="Ex.: amor, esperança, confiança" autocomplete="off"><button type="submit" class="search-btn">Buscar</button></div>
+          <p class="search-hint">A busca procura palavras e frases no texto completo.</p>
+        </form>
+      </article>
+      <div id="searchResults" class="search-results" hidden></div>
+      <article id="chapterCard" class="chapter-card">
+        <div class="chapter-header"><p class="eyebrow accent">LEITURA BÍBLICA</p><h2 id="chapterTitle">Gênesis 1</h2></div>
+        <div id="chapterText" class="verse-list" aria-live="polite"><p class="loading-text">Carregando a Bíblia completa…</p></div>
+      </article>
+      <button id="showVerseFavoritesBtn" class="text-btn verse-favs-btn">Ver versículos salvos</button>
+      <p class="source-note">Texto bíblico: João Ferreira de Almeida, domínio público. Fonte: <a href="https://github.com/seven1m/open-bibles" target="_blank" rel="noopener">open-bibles</a>. Reflexões e orações do dia são textos originais.</p>
+    </section>
+    <p class="footnote">Mensagem e oração atualizadas pela internet. Favoritos ficam salvos neste aparelho.</p>
   </main>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script>if('serviceWorker' in navigator && location.protocol.startsWith('http')){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));}</script>
   <script src="app.js" defer></script>
 </body>
 </html>

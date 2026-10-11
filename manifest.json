@@ -1,7 +1,7 @@
 {
   "name": "Palavra Viva — Bíblia moderna",
   "short_name": "Palavra Viva",
-  "description": "Mensagem bíblica e oração para cada dia.",
+  "description": "Bíblia completa de 66 livros, mensagens e orações diárias.",
   "lang": "pt-BR",
   "start_url": "./",
   "scope": "./",
