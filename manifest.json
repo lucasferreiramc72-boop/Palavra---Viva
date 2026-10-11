@@ -1,0 +1,12 @@
+{
+  "name": "Palavra Viva — Bíblia moderna",
+  "short_name": "Palavra Viva",
+  "description": "Mensagem bíblica e oração para cada dia.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f3eb",
+  "theme_color": "#164e45",
+  "icons": [{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#164e45">
+  <meta name="description" content="Uma mensagem bíblica e uma oração para cada dia.">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <title>Palavra Viva</title>
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <div class="brand-mark" aria-hidden="true">✦</div>
+      <div><p class="eyebrow">UM MOMENTO DE PAZ</p><h1>Palavra Viva</h1></div>
+      <button id="favoriteBtn" class="icon-btn" aria-label="Favoritar mensagem" title="Favoritar">♡</button>
+    </header>
+
+    <section class="date-row" aria-live="polite">
+      <span id="todayDate"></span><span id="connectionState" class="status">Carregando…</span>
+    </section>
+
+    <article class="message-card">
+      <div class="sunrise" aria-hidden="true">☀</div>
+      <p class="eyebrow accent">MENSAGEM DO DIA</p>
+      <h2 id="messageTitle">Um passo de cada vez</h2>
+      <p id="reference" class="reference"></p>
+      <p id="messageText" class="body-copy">Buscando sua mensagem…</p>
+      <div class="divider"></div>
+      <p class="eyebrow accent">ORAÇÃO</p>
+      <p id="prayerText" class="prayer"></p>
+      <button id="shareBtn" class="primary-btn">Compartilhar mensagem</button>
+    </article>
+
+    <section class="bottom-card">
+      <div><p class="eyebrow">SEUS FAVORITOS</p><p id="favoriteSummary">Nenhuma mensagem salva ainda.</p></div>
+      <button id="showFavoritesBtn" class="text-btn">Ver favoritos</button>
+    </section>
+    <p class="footnote">Reflexões e orações originais, inspiradas nas referências bíblicas indicadas.</p>
+  </main>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js" defer></script>
+</body>
+</html>
