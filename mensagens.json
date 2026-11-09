@@ -1,6 +1,6 @@
 {
   "versao": 2,
-  "atualizado_em": "2026-11-02",
+  "atualizado_em": "2026-11-09",
   "mensagens": [
     {
       "id": "2026-10-11-um-passo",
@@ -225,9 +225,75 @@
       "referencia": "Salmo 46:10",
       "reflexao": "Em meio às tarefas e aos pensamentos, uma pausa pode ajudar você a recuperar a calma. Reserve alguns minutos de silêncio, oração ou descanso e lembre-se de que cuidar de si também importa.",
       "oracao": "Deus, acalma minha mente e renova minhas forças. Ajuda-me a começar a nova semana com serenidade. Amém."
-    }
+    },
+  
+{
+  "id": "2026-11-08-renovacao",
+  "data": "2026-11-08",
+  "titulo": "Um tempo para renovar",
+  "referencia": "Salmo 46:10",
+  "reflexao": "Em meio às tarefas e aos pensamentos, uma pausa pode ajudar você a recuperar a calma. Reserve alguns minutos de silêncio, oração ou descanso e lembre-se de que cuidar de si também importa.",
+  "oracao": "Deus, acalma minha mente e renova minhas forças. Ajuda-me a começar a nova semana com serenidade. Amém."
+},
+{
+  "id": "2026-11-09-novo-dia",
+  "data": "2026-11-09",
+  "titulo": "Um novo dia para caminhar",
+  "referencia": "Salmo 118:24",
+  "reflexao": "Um novo dia traz oportunidades, mas também pode trazer desafios. Comece reconhecendo o que está ao seu alcance e escolha um passo possível. Não é preciso resolver tudo de uma vez.",
+  "oracao": "Deus, obrigado por este dia. Dá-me serenidade para enfrentar os desafios e sabedoria para aproveitar as oportunidades. Amém."
+},
+{
+  "id": "2026-11-10-ouvir",
+  "data": "2026-11-10",
+  "titulo": "A importância de ouvir",
+  "referencia": "Tiago 1:19",
+  "reflexao": "Ouvir com atenção pode mudar uma conversa. Antes de responder, dê espaço para entender o que a outra pessoa sente e pensa. Escutar não exige concordar com tudo, mas ajuda a tratar o outro com respeito.",
+  "oracao": "Senhor, ajuda-me a ouvir com paciência e a falar com cuidado. Que eu saiba respeitar as pessoas e também expressar meus limites. Amém."
+},
+{
+  "id": "2026-11-11-semente",
+  "data": "2026-11-11",
+  "titulo": "Cuide do que você cultiva",
+  "referencia": "Gálatas 6:7",
+  "reflexao": "Nossas escolhas de hoje podem influenciar o amanhã. Um hábito de cuidado, uma atitude honesta ou um tempo dedicado ao que importa são formas de construir aos poucos. Comece pelo que está ao seu alcance.",
+  "oracao": "Deus, ajuda-me a fazer escolhas responsáveis e a cuidar com atenção do que estou construindo. Amém."
+},
+{
+  "id": "2026-11-12-abrigo",
+  "data": "2026-11-12",
+  "titulo": "Encontre um lugar de apoio",
+  "referencia": "Salmo 46:1",
+  "reflexao": "Nos dias difíceis, lembre-se de que buscar apoio é um gesto de coragem. Uma oração, uma conversa sincera ou ajuda profissional podem ser caminhos para atravessar um momento pesado com cuidado.",
+  "oracao": "Senhor, sê meu abrigo nas dificuldades e ajuda-me a reconhecer e aceitar o apoio de que preciso. Amém."
+},
+{
+  "id": "2026-11-13-generosidade",
+  "data": "2026-11-13",
+  "titulo": "Generosidade possível",
+  "referencia": "2 Coríntios 9:7",
+  "reflexao": "Ser generoso não depende apenas de dinheiro. Oferecer atenção, compartilhar conhecimento ou ajudar numa tarefa também pode fazer diferença. Doe aquilo que estiver ao seu alcance, sem descuidar das próprias necessidades.",
+  "oracao": "Deus, ensina-me a ajudar com alegria e sabedoria, respeitando meus limites e as necessidades de quem está perto. Amém."
+},
+{
+  "id": "2026-11-14-humildade",
+  "data": "2026-11-14",
+  "titulo": "Aprender também é avançar",
+  "referencia": "Provérbios 12:15",
+  "reflexao": "Ninguém precisa saber tudo. Ouvir conselhos, reconhecer um erro e tentar de outro jeito são atitudes de aprendizado. Avalie as orientações com cuidado e use o que fizer sentido para sua caminhada.",
+  "oracao": "Senhor, dá-me humildade para aprender e discernimento para escolher bem os conselhos que recebo. Amém."
+},
+{
+  "id": "2026-11-15-descanso",
+  "data": "2026-11-15",
+  "titulo": "Um momento de descanso",
+  "referencia": "Marcos 6:31",
+  "reflexao": "A rotina pode ficar cheia, mas uma pausa também tem valor. Separe um momento para descansar, respirar e cuidar de si. Renovar as forças pode ajudar você a seguir com mais atenção ao que importa.",
+  "oracao": "Deus, ajuda-me a encontrar descanso e equilíbrio. Renova minhas forças para os dias que virão. Amém."
+}
   ]
 }
+
 
 
 
