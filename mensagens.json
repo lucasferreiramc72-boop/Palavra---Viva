@@ -1,6 +1,6 @@
 {
   "versao": 2,
-  "atualizado_em": "2026-11-16",
+  "atualizado_em": "2026-11-23",
   "mensagens": [
     {
       "id": "2026-10-11-um-passo",
@@ -331,15 +331,73 @@
   "oracao": "Deus, obrigado pelo cuidado que encontro ao longo do caminho. Ajuda-me a perceber o bem recebido e a compartilhar bondade. Amém."
 },
 {
-  "id": "2026-11-22-descanso",
-  "data": "2026-11-22",
-  "titulo": "Descanse e renove as forças",
-  "referencia": "Êxodo 20:8-10",
-  "reflexao": "O descanso faz parte de uma vida equilibrada. Se puder, reserve um tempo para desacelerar, estar com quem ama ou cuidar de si. Uma pausa não elimina as responsabilidades, mas pode ajudar você a retomá-las com mais clareza.",
-  "oracao": "Senhor, dá-me um tempo de paz e descanso. Renova minhas forças para começar uma nova semana com sabedoria. Amém."
-}
+    "id": "2026-11-22-descanso",
+    "data": "2026-11-22",
+    "titulo": "Descanse e renove as forças",
+    "referencia": "Êxodo 20:8-10",
+    "reflexao": "O descanso faz parte de uma vida equilibrada. Se puder, reserve um tempo para desacelerar, estar com quem ama ou cuidar de si. Uma pausa não elimina as responsabilidades, mas pode ajudar você a retomá-las com mais clareza.",
+    "oracao": "Senhor, dá-me um tempo de paz e descanso. Renova minhas forças para começar uma nova semana com sabedoria. Amém."
+  },
+  {
+    "id": "2026-11-23-confianca",
+    "data": "2026-11-23",
+    "titulo": "Comece com confiança",
+    "referencia": "Salmo 37:5",
+    "reflexao": "Uma nova semana começa com possibilidades e desafios. Entregue seus planos a Deus e cuide do que está ao seu alcance hoje. Você não precisa resolver tudo de uma vez: um passo responsável já é um começo.",
+    "oracao": "Senhor, guia meus passos nesta semana. Dá-me serenidade para enfrentar os desafios e sabedoria para cuidar do que posso fazer hoje. Amém."
+  },
+  {
+    "id": "2026-11-24-escuta",
+    "data": "2026-11-24",
+    "titulo": "O valor de escutar",
+    "referencia": "Tiago 1:19",
+    "reflexao": "Escutar com atenção é uma forma de cuidar. Em uma conversa, procure compreender antes de responder. Mesmo quando houver diferenças, o respeito pode abrir espaço para um diálogo mais sincero.",
+    "oracao": "Deus, ensina-me a ouvir com paciência e a falar com respeito. Ajuda-me a compreender melhor as pessoas ao meu redor. Amém."
+  },
+  {
+    "id": "2026-11-25-sabedoria",
+    "data": "2026-11-25",
+    "titulo": "Sabedoria para escolher",
+    "referencia": "Provérbios 3:5-6",
+    "reflexao": "Algumas decisões precisam de tempo. Antes de escolher, reúna informações, considere as consequências e converse com alguém de confiança. Pedir orientação não é fraqueza; é uma maneira cuidadosa de caminhar.",
+    "oracao": "Senhor, dá-me clareza para avaliar minhas escolhas e humildade para pedir ajuda quando for necessário. Amém."
+  },
+  {
+    "id": "2026-11-26-gratidao",
+    "data": "2026-11-26",
+    "titulo": "Perceba o bem ao seu redor",
+    "referencia": "Salmo 107:1",
+    "reflexao": "Mesmo em dias difíceis, um gesto de carinho ou uma ajuda inesperada pode trazer conforto. Reconhecer essas coisas não apaga os problemas, mas pode lembrar você de que há apoio e bondade no caminho.",
+    "oracao": "Deus, obrigado pelos cuidados que recebo. Ajuda-me a reconhecer a bondade ao meu redor e a compartilhá-la com outras pessoas. Amém."
+  },
+  {
+    "id": "2026-11-27-perseveranca",
+    "data": "2026-11-27",
+    "titulo": "Continue no seu ritmo",
+    "referencia": "Gálatas 6:9",
+    "reflexao": "Alguns resultados levam tempo, e cada pessoa tem seu próprio ritmo. Valorize o esforço que você consegue fazer hoje, respeite seus limites e procure apoio quando precisar. Avançar devagar também é avançar.",
+    "oracao": "Senhor, renova minha força e ajuda-me a perseverar com paciência, sem esquecer de cuidar de mim. Amém."
+  },
+  {
+    "id": "2026-11-28-bondade",
+    "data": "2026-11-28",
+    "titulo": "Um gesto de cuidado",
+    "referencia": "Gálatas 6:2",
+    "reflexao": "Uma mensagem, uma conversa ou uma ajuda prática pode fazer diferença no dia de alguém. Escolha um gesto de cuidado que esteja ao seu alcance e lembre-se de que você também pode aceitar ajuda.",
+    "oracao": "Deus, mostra-me como apoiar quem precisa e dá-me humildade para receber cuidado quando for minha vez. Amém."
+  },
+  {
+    "id": "2026-11-29-pausa",
+    "data": "2026-11-29",
+    "titulo": "Uma pausa para renovar",
+    "referencia": "Mateus 11:28",
+    "reflexao": "Descansar é uma maneira de reconhecer seus limites e recuperar forças. Se puder, reserve um momento para respirar, orar ou estar com quem faz bem. Uma pausa pode ajudar você a começar a próxima semana com mais serenidade.",
+    "oracao": "Senhor, acalma meu coração e renova minhas forças. Ajuda-me a encontrar descanso e equilíbrio para os dias que virão. Amém."
+  }
   ]
 }
+
+
 
 
 
